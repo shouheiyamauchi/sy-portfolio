@@ -1,3 +1,407 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.animation-target {
+	-webkit-animation: animation 2000ms linear infinite both;
+	animation: animation 2000ms linear infinite both;
+}
+/* Generated with Bounce.js. Edit at https://goo.gl/YxFkoe */
+
+@-webkit-keyframes animation {
+	0% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30, 0, 1);
+	}
+	3.7% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 28.779, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 28.779, 0, 1);
+	}
+	4.3% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 28.498, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 28.498, 0, 1);
+	}
+	7.31% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 27.427, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 27.427, 0, 1);
+	}
+	8.61% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 27.233, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 27.233, 0, 1);
+	}
+	11.01% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 27.333, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 27.333, 0, 1);
+	}
+	12.91% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 27.75, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 27.75, 0, 1);
+	}
+	14.61% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 28.276, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 28.276, 0, 1);
+	}
+	17.22% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 29.167, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 29.167, 0, 1);
+	}
+	23.72% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30.671, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30.671, 0, 1);
+	}
+	28.33% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30.791, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30.791, 0, 1);
+	}
+	32.83% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30.49, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30.49, 0, 1);
+	}
+	39.44% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30.025, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30.025, 0, 1);
+	}
+	51.05% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 29.915, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 29.915, 0, 1);
+	}
+	61.66% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30.007, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30.007, 0, 1);
+	}
+	69.27% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30.011, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30.011, 0, 1);
+	}
+	83.98% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 29.999, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 29.999, 0, 1);
+	}
+	87.49% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 29.999, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 29.999, 0, 1);
+	}
+	100% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30, 0, 1);
+	}
+}
+
+@keyframes animation {
+	0% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30, 0, 1);
+	}
+	3.7% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 28.779, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 28.779, 0, 1);
+	}
+	4.3% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 28.498, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 28.498, 0, 1);
+	}
+	7.31% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 27.427, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 27.427, 0, 1);
+	}
+	8.61% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 27.233, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 27.233, 0, 1);
+	}
+	11.01% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 27.333, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 27.333, 0, 1);
+	}
+	12.91% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 27.75, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 27.75, 0, 1);
+	}
+	14.61% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 28.276, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 28.276, 0, 1);
+	}
+	17.22% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 29.167, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 29.167, 0, 1);
+	}
+	23.72% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30.671, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30.671, 0, 1);
+	}
+	28.33% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30.791, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30.791, 0, 1);
+	}
+	32.83% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30.49, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30.49, 0, 1);
+	}
+	39.44% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30.025, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30.025, 0, 1);
+	}
+	51.05% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 29.915, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 29.915, 0, 1);
+	}
+	61.66% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30.007, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30.007, 0, 1);
+	}
+	69.27% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30.011, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30.011, 0, 1);
+	}
+	83.98% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 29.999, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 29.999, 0, 1);
+	}
+	87.49% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 29.999, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 29.999, 0, 1);
+	}
+	100% {
+		-webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30, 0, 1);
+		transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30, 0, 1);
+	}
+}
+
+.vertical-horizontal-align-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 60px;
+	font-family: arial, helvetica;
+	color: #FFFFFF;
+	margin: 0;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-weight: 500;
+}
+
+h2 {
+	font-size: 45px;
+	font-family: arial, helvetica;
+	color: #FFFFFF;
+	margin: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 500;
+}
+
+p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #FFFFFF;
+}
+
+#front-page {
+		height: 100vh;
+		width: 100%;
+		background-image: url(image-path("background.jpg"));
+		background-size: cover;
+		background-position: center;
+		opacity: 0.75;
+}
+
+
+#front-page .box {
+	width: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 30px;
+	margin: 0px 170px;
+	border-radius: 7px;
+}
+
+#front-page .logo {
+	border-radius: 5px;
+	width: 63px;
+	height: 50px;
+	background: transparent;
+	border: 3px solid white;
+	font-size: 30px;
+	color: #F3DCBD;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 4px;
+	padding-right: 3px;
+	font-family: 'Mr Dafoe', cursive;
+	font-weight: lighter;
+}
+
+.quotes {
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	display: none;
+}
+
+.page-footer {
+	position: absolute;
+	bottom: 25px;
+	left: auto;
+	right: auto;
+	width: 100%;
+}
+
+.page-footer p {
+	font-family: 'Abel', sans-serif;
+	font-size: 20px;
+}
+
+#front-page a {
+	transition: color 0.7s ease;
+	color: white;
+	text-decoration: none;
+}
+
+#front-page a:hover {
+	color: #F3DCBD;
+	text-decoration: none;
+}
+
+#front-page img {
+	width: 80px;
+	height: 80px;
+	border-radius: 25px;
+	border-width: 3px;
+	border-color: #FEE2C8;
+	border-style: inset;
+}
+
+#about-me .top-bottom-margin {
+	margin: 30px 0px 40px 0px;
+}
+
+#about-me {
+	font-family: 'Abel', sans-serif;
+	background-image: url(image-path("sy-bg.png"));
+	background-size: contain;
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+
+#about-me h2 {
+	font-family: 'Abel', sans-serif;
+	font-size: 35px;
+	color: #485357;
+}
+
+#education-experience-skills .top-bottom-margin {
+	margin: 10px 0px;
+}
+
+#education-experience-skills {
+	font-family: 'Abel', sans-serif;
+	color: white;
+	background-color: #FFD3A5;
+}
+
+#education-experience-skills .frame {
+	transition: background 0.5s ease;
+	padding: 1px 0px 10px 0px;
+	border-radius: 5px;
+}
+
+#education-experience-skills .frame:hover {
+	background: rgba(0, 0, 0, 0.3);
+	padding: 1px 0px 10px 0px;
+	border-radius: 5px;
+}
+
+#education-experience-skills .button {
+	border: 2px solid white;
+	background-color: transparent;
+	color: white;
+	border-radius: 15px;
+	margin-top: 15px;
+	padding: 5px 10px;
+	display: inline-block
+}
+
+#education-experience-skills .button:hover {
+	border: 2px solid white;
+	background-color: white;
+	color: #FFD3A5;
+	border-radius: 15px;
+	padding: 5px 10px;
+	display: inline-block
+}
+
+#education-experience-skills a:hover {
+	text-decoration: none;
+}
+
+#middle-strip {
+	background-image: url(image-path("middle-strip.jpg"));
+	background-size: cover;
+	background-position: center;
+	padding: 80px;
+	opacity: 0.7;
+}
+
+#projects .top-bottom-margin {
+	margin: 30px 0px 40px 0px;
+}
+
+#projects {
+	font-family: 'Abel', sans-serif;
+	background-color: white;
+}
+
+#projects img {
+	transition: opacity 0.7s ease;
+	height: 250px;
+	width: 250px;
+	border-radius: 4px;
+	opacity: 0.5;
+}
+
+#projects img:hover {
+	height: 250px;
+	width: 250px;
+	border-radius: 4px;
+	opacity: 1;
+}
+
+#contact-me .top-bottom-margin {
+	margin: 30px 0px 40px 0px;
+}
+
+#contact-me {
+	font-family: 'Abel', sans-serif;
+	background-color: #F5F5F5;
+	color: #FFA141;
+}
+
+#contact-me h2 {
+	font-family: 'Abel', sans-serif;
+	font-size: 35px;
+	color: #797979;
+}
+
+.well-sm {
+	background-color: #FFEFDE;
+}
+
+.form-horizontal {
+	background-color: #FFEFDE;
+}
+
+.well {
+	background-image: none;
+	background-color: #FFEFDE;
+	border-color: #FEE2C8;
+	border-width: 2px;
+	padding: 19px;
+}
+
+.grey {
+	color: grey;
+}
