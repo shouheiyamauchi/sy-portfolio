@@ -4,8 +4,32 @@
     <title>Shouhei Yamauchi</title>
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <!-- load fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,200" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://use.fontawesome.com/35ebfa7191.js"></script>
+    <!-- dev icons font -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script>
+      (function(){
+
+        var config = {
+          viewFactor : 0.15,
+          duration   : 800,
+          distance   : "0px",
+          scale      : 0,
+          viewOffset: { top: 50 },
+        }
+
+        window.sr = new ScrollReveal(config)
+      })()
+    </script>
   </head>
 
   <body>
