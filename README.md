@@ -1,4 +1,5 @@
 # Shouhei Yamauchi’s Portfolio
+http://www.shouhei.io
 
 ## Portfolio Contents/Layout
 I listed down all the items which were to be included in my website which I needed to know before I proceeded onto planning what I wanted the layout to look like. The basic items to be included were to be as follows:
