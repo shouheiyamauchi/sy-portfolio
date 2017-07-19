@@ -14,15 +14,15 @@ I listed out all the items to be included on my portfolio website before I proce
 
 ### Layout Design
 Designing the layout was quite a challenging process as I had limited experience with designing a whole website by myself. It was very helpful to browse through other developers' portfolios and other websites providing free layouts such as www.startbootstrap.com for inspiration.
-![Imgur](http://i.imgur.com/qREuZOb.png)
+![Alt Layouts](/readme-images/layouts.png?raw=true)
 
 Once I decided the overall layout, I moved onto selecting the colour scheme. There were plenty of resources on the internet which provided a good basis for me to select a colour scheme I liked. I chose orange, grey and white which I thought looked fresh and clean.
-![Imgur](http://i.imgur.com/505dT9a.jpg)
+![Alt Colour Scheme](/readme-images/colours.png?raw=true)
 
 ### Images/Multimedia
 www.unsplash.com was a good website providing free to use images. I chose an image which fitted the colour scheme.
-![Imgur](http://i.imgur.com/rxaUvKH.jpg)
+![Alt Unsplash](/readme-images/unsplash.png?raw=true)
 
 I used www.flaticon.com and www.devicon.fr for my icons.
-![Imgur](http://i.imgur.com/I3Ahipk.png)
-![Imgur](http://i.imgur.com/FH3Ky1N.png)
+![Alt Flaticon](/readme-images/flaticon.png?raw=true)
+![Alt Devicon](/readme-images/devicon.png?raw=true)
